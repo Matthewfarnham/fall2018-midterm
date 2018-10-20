@@ -11,6 +11,7 @@ Date: Thu Oct 18 18:18:22 PDT 2018
 
 using namespace std;
 
+//Function that prompts the user for a string and returns it
 string get_string(string prompt)
 {
    string s;
@@ -20,6 +21,7 @@ string get_string(string prompt)
    return s;
 }
 
+//Function that returns the amount of characters within the given string
 int char_count(string question, char c)
 {
     int count = 0;
@@ -35,7 +37,7 @@ int char_count(string question, char c)
     return count;
 }   
 
-
+//Main function that displays the prompt and number of characters in the string
 int main()
 {
     string problem = get_string("Please enter a string: ");
